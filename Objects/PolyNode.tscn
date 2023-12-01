@@ -1,0 +1,11 @@
+[gd_scene load_steps=3 format=3 uid="uid://yetawgfveqqi"]
+
+[ext_resource type="Texture2D" uid="uid://dh6764hkduewg" path="res://Assets/PolyNode.png" id="1_hso66"]
+[ext_resource type="Script" path="res://Objects/PolyNode.gd" id="2_l6533"]
+
+[node name="PolyNode" type="TextureButton"]
+offset_right = 8.0
+offset_bottom = 8.0
+texture_normal = ExtResource("1_hso66")
+stretch_mode = 3
+script = ExtResource("2_l6533")
